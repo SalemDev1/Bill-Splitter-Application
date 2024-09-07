@@ -7,3 +7,10 @@ let tip= (bill>=50&& bill <=300) ? bill * 0.15: bill* 0.20;
 
 // This outputs the result of the tip based off the bill 
 console.log('The bill was $' + bill + ', the tip was $' + tip + ', and the total value is $' + (bill + tip));
+
+//Task2- Creating calculateTip Function
+function calculateTip(bill) {
+    return (bill>=50&& bill <=300) ? bill * 0.15: bill* 0.20;
+}
+// Testing the calculateTip function based off a bill value of $100
+console.log('For a bill of $100, the tip is $' + calculateTip(100));
